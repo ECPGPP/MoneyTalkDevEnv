@@ -19,12 +19,26 @@ services:
     ports:
       - 8000:8000
     volumes: 
-      - '../MoneyTalk/app:/app'
+      - '../MoneyTalk-back-symfony/app:/app'
     networks:
       - moneytalk_network
     depends_on: 
       - mariadb
-    
+  nginx:
+    image: nginx:stable
+    ports:
+      - '80:80'
+    restart: unless-stopped
+  reactjs:
+    build:
+      context: ../MoneyTalk-front-reactJS
+      dockerfile: Dockerfile
+      target: dev
+    volumes:
+      - '../MoneyTalk-project/MoneyTalk-front-reactJS:/usr/src/app:rw'
+    ports:
+      - '3000:3000'
+    restart: unless-stopped
 
 volumes:
   DB_data:
