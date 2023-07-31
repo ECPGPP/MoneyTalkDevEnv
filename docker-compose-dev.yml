@@ -30,12 +30,13 @@ services:
       - '80:80'
     restart: unless-stopped
   reactjs:
+    container_name: react_js
     build:
       context: ../MoneyTalk-front-reactJS
       dockerfile: Dockerfile
-      target: dev
+      # target: dev
     volumes:
-      - '../MoneyTalk-project/MoneyTalk-front-reactJS:/usr/src/app:rw'
+      - '../MoneyTalk-front-reactJS/app:/app'
     ports:
       - '3000:3000'
     restart: unless-stopped
