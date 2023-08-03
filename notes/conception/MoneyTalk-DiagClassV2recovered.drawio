@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="uoR_s4EFscI4eEnfqdAm" name="Page-1">
-        <mxGraphModel dx="4616" dy="2754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="6153" dy="2671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -3247,6 +3247,21 @@
                 </mxCell>
                 <mxCell id="124" value="Id" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;shadow=0;html=0;" parent="1" vertex="1">
                     <mxGeometry x="-810" y="524" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="1467" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="794" target="795">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="1469" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;UN MONEY POT N'EST QU'UN TRACK RECORD DES TRANSACTIONS DES RECEIVERS/SENDERS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-2465" y="805" width="590" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="1470" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;DONC PAS DE LIENS DIRECT ENTRE MP ET TRANSACTIONS&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-2360" y="835" width="380" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="1471" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;SEULS LES HOLDERS ONT UN LIEN EFFECTIF SUR LES TRANSACTIONS&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-2385" y="859" width="450" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="1472" value="&lt;b style=&quot;font-size: 30px;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 30px;&quot;&gt;03/08/23&lt;br style=&quot;font-size: 30px;&quot;&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="1">
+                    <mxGeometry x="-2240" y="760" width="140" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
