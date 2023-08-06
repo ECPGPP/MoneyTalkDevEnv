@@ -65,15 +65,15 @@ downup:
 
 ## open a symfony_core bash terminal
 sfbash:
-	$(EXEC) -it symfony_core bash
+	$(EXEC) -it MT_symfony_core bash
 .PHONY: sfbash
 
 ## open a mariaDB bash terminal
 mariabash:
-	$(EXEC) -it mariadb bash
+	$(EXEC) -it MT_mariadb bash
 .PHONY: mariabash
 
 ## open a reactJS bash terminal
 reactbash:
-	$(EXEC) -it react_js bash
+	$(EXEC) -it MT_react_js bash
 .PHONY: reactbash
