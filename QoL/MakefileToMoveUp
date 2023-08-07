@@ -32,7 +32,7 @@ help:
 		separator = match(lastLine, /^## --/); \
 		if (separator) { \
 			helpCommand = substr($$1, 0, index($$1, ":")-1); \
-			printf "\t${BYellow}= %s =${NC}\n", helpCommand; \
+			printf "\t${BYellow 	}= %s =${NC}\n", helpCommand; \
 		} \
 		helpMessage = match(lastLine, /^## (.*)/); \
 		if (helpMessage) { \
@@ -71,20 +71,25 @@ downup:
 	make up
 .PHONY: downup
 
-## open a symfony_core bash terminal
+## open a bash terminal in MT_symfony_core container
 sfbash:
 	make -C $(MTE) sfbash
 .PHONY: sfbash
 
-## open a mariaDB bash terminal
+## open a bash terminal in MT_mariaDB container
 mariabash:
 	make -C $(MTE) mariabash
 .PHONY: mariabash
 
-## open a reactJS bash terminal
+## open a bash terminal in MT_reactJS container
 reactbash:
 	make -C $(MTE) reactbash
 .PHONY: reactbash
+
+## open a bash terminal in MT_nginx container
+nginxbash:
+	make -C $(MTE) nginxbash
+.PHONY: nginxbash
 
 ## test your inner Freeman
 cowfreeman:

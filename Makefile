@@ -63,17 +63,22 @@ downup:
 	make up
 .PHONY: downup
 
-## open a symfony_core bash terminal
+## open a bash terminal in MT_symfony_core container
 sfbash:
 	$(EXEC) -it MT_symfony_core bash
 .PHONY: sfbash
 
-## open a mariaDB bash terminal
+## open a bash terminal in MT_mariadb container
 mariabash:
 	$(EXEC) -it MT_mariadb bash
 .PHONY: mariabash
 
-## open a reactJS bash terminal
+## open a bash terminal in MT_reactJS container
 reactbash:
 	$(EXEC) -it MT_react_js bash
 .PHONY: reactbash
+
+## open a bash terminal in MT_nginx container
+nginxbash:
+	$(EXEC) -it MT_nginx bash
+.PHONY: nginxbash
