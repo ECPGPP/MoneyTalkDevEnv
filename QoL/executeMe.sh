@@ -28,7 +28,7 @@ if [[ "$base" == "$mtf" ]];then
     ls ./QoL/cows/
     sudo cp ./QoL/cows/* ~/../../usr/share/cowsay/cows/
     echo -e ${EXECUTED}"Executed:"${COMMAND}"sudo cp ./QoL/cows/* ~/../../usr/share/cowsay/cows/"${NC}
-    make -C ../../ cowfreeman
+    make -C ../ cowfreeman
     echo -e ${EXECUTED}"Executed:"${COMMAND}"make -C ../../ cowfreeman"${NC}
     echo -e ${INFOMSG}Well done master !${NC}
     exit 0
